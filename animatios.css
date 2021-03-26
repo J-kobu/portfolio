@@ -5,10 +5,8 @@
 
 @keyframes nombre {
     from {
-        opacity: 0;
-    } to {
-        opacity: 1;
-    }
+        transform: scale(1.1);
+    } 
 }
 
 .p-about-me {
@@ -18,10 +16,8 @@
 
 @keyframes about-me {
     from {
-        opacity: 0;
-    } to {
-        opacity: 1;
-    }
+        transform: scale(1.1);
+    } 
 }
 
 .profile-pic {
