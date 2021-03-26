@@ -4,7 +4,6 @@ body {
     font-family: 'Oswald', sans-serif;
     background-color: #262626;
     color: #fff3f3;
-    /* text-shadow: 0px 2px 2px rgba(0, 0, 0, 10); */
 }
 
 header {
@@ -31,11 +30,11 @@ header {
 }
 
 .profile-pic {
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    max-width: 200px;
     margin-top: 30px;
-    border-radius: 50px;
-    box-shadow: -1px 5px 15px rgba(0, 0, 0, 10);
+    border-radius: 50%;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.817);
 }
 
 .p-name {
@@ -44,19 +43,19 @@ header {
 }
 
 .about-me {
-    font-size: 18px;
+    font-size: 120%;
     margin-top: -20px;
-    max-width: 500px;
-    min-width: 280px;
+    width: 100%;
+    max-width: 600px;
+    margin: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.about-me p{
+.about-me span{
     display: inline-flex;
-    margin: 5px;
 }
 
 #nav {
@@ -88,7 +87,6 @@ header {
 .nav-link:hover {
     color: black;
     border-radius: 10px;
-    /* box-shadow: 2px 2px 10px rgba(13, 13, 13, 0.5); */
 }
 
 .category-separation {
@@ -132,15 +130,23 @@ hr {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin: 20px;
 }
 
-.portfolio-images-container div:hover {
-    background-color: rgba(101, 101, 101, 0.098);
-    border-radius: 10px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.817);
+.portfolio-images-container div a:hover {
+    color: black;
+}
+
+.portfolio-images-container div a img:hover {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.817);
 }
 
 .portfolio-images-container a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
     margin-top: 50px;
     font-size: 22px;
     text-decoration: none;
@@ -149,14 +155,11 @@ hr {
 
 .img-portfolio {
     display: inline-flex;
-    max-width: 410px;
-    min-width: 310px;
-    max-height: 300px;
-    min-height: 200px;
-    margin: 2rem;
-    margin-top: 1vh;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
     border-radius: 10px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.6);
 }
 
 .skills-learning-icons-container {
@@ -176,8 +179,8 @@ hr {
 }
 
 .skills-learning-icons-container div img {
-    width: 110px;
-    height: 110px;
+    width: 100%;
+    max-width: 100px;
     margin-right: 10px;
     background-color: rgba(101, 101, 101, 0.098);
     padding: 20px;
@@ -189,7 +192,7 @@ hr {
 }
 
 .skills-learning-icons-container div img:hover {
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.817);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.817);
 }
 
 .skills-learning-icons-container div p:hover { /*<---Pendiente */
@@ -198,16 +201,34 @@ hr {
 
 section {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.email span {
+    font-size: 25px;
+    margin-bottom: 30px;
+    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 70px;
 }
 
 .img-contacto {
     width: 50px;
     height: 50px;
-    margin-right: 10px;
+    margin: 10px;
+    margin-bottom: 10px;
 }
 
 .img-contacto:hover {
