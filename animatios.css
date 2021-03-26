@@ -72,10 +72,8 @@
 @keyframes profile-img {
     from {
         transform: translate3d(0, -150%,0);
-        opacity: 0;
     } to {
         transform: translate(0,0,0);
-        opacity: 1;
     }
 
 }
@@ -88,10 +86,8 @@ nav {
 @keyframes nav-bar {
     from {
         transform: scale(0.3);
-        opacity: 0;
     } to {
         transform: scale(1);
-        opacity: 1;
     }
 }
 
@@ -103,10 +99,8 @@ p {
 @keyframes text-animation {
     from {
         transform: scale(1.5);
-        opacity: 0;
     } to {
         transform: scale(1);
-        opacity: 1;
     }
 }
 
