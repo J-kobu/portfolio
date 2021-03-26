@@ -111,6 +111,7 @@ hr {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    margin: 1px;
 }
 
 .portfolio-images-container div {
@@ -124,7 +125,7 @@ hr {
 .portfolio-images-container div:hover {
     background-color: rgba(101, 101, 101, 0.098);
     border-radius: 10px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.694);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.817);
 }
 
 .portfolio-images-container p {
@@ -133,8 +134,8 @@ hr {
 
 .img-portfolio {
     display: inline-flex;
-    width: 21rem;
-    height: 13rem;
+    width: 310px;
+    height: 200px;
     margin: 2rem;
     margin-top: 1rem;
     border-radius: 10px;
@@ -171,9 +172,7 @@ hr {
 }
 
 .skills-learning-icons-container div img:hover {
-    width: 120px;
-    height: 120px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.694);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.817);
 }
 
 .skills-learning-icons-container div p:hover { /*<---Pendiente */
@@ -192,4 +191,8 @@ section {
     width: 50px;
     height: 50px;
     margin-right: 10px;
+}
+
+.img-contacto:hover {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.817);
 }
