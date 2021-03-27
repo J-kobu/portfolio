@@ -48,11 +48,11 @@ header {
 .about-me {
     font-size: 120%;
     width: 100%;
-    max-width: 600px;
+    max-width: 475px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
 }
 
 .about-me span{
